@@ -1,0 +1,23 @@
+{
+    "name": "com.pixframe-studios.towi-plugin",
+    "version": "0.1.0",
+    "displayName": "Towi Plugin",
+    "description": "This is the base towin plugin",
+    "unity": "2020.3",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "dependencies": {
+   },
+   "keywords": [
+      "Towi"
+    ],
+    "author": {
+      "name": "Francisco Castañeda",
+      "email": "fracucasrov@gmail.com",
+      "url": "https://www.unity3d.com"
+    }
+  }
+  
+  
