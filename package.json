@@ -1,6 +1,6 @@
 {
     "name": "com.pixframe-studios.towi-plugin",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "displayName": "Towi Plugin",
     "description": "This is the base towin plugin",
     "unity": "2020.3",
@@ -14,9 +14,9 @@
       "Towi"
     ],
     "author": {
-      "name": "Francisco Castañeda",
-      "email": "fracucasrov@gmail.com",
-      "url": "https://www.unity3d.com"
+      "name": "Pixframe Studios",
+      "email": "dev@pixframestudios.com.mx",
+      "url": "https://pixframestudios.com/"
     }
   }
   
