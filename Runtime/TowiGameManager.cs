@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace PixframeStudios.TowiPlugin
 {    
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
     public class TowiGameManager : MonoBehaviour
     {
         public static TowiGameManager instance;
