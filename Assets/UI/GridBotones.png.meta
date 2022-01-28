@@ -22,34 +22,34 @@ TextureImporter:
     second: Towi_Button_Replay
   - first:
       213: 2949785645524882367
-    second: GridBotones_6
+    second: Towi_Button_Next
   - first:
       213: -8399657894466921004
-    second: GridBotones_7
+    second: Towi_Button_Info
   - first:
       213: 3848935311356204825
-    second: GridBotones_8
+    second: Towi_Button_Launch
   - first:
       213: -7511372003843400185
-    second: GridBotones_9
+    second: Towi_Button_Config
   - first:
       213: 1193415685782690424
-    second: GridBotones_10
+    second: Towi_Button_Back
   - first:
       213: -3131225729737098422
-    second: GridBotones_11
+    second: Towi_Button_Shop
   - first:
       213: 1555360481132664898
-    second: GridBotones_12
+    second: Towi_Button_Audio_On
   - first:
       213: 1906817747683141266
-    second: GridBotones_13
+    second: Towi_Button_Audio_Off
   - first:
       213: -8681325264865104141
-    second: GridBotones_14
+    second: Towi_Button_Music_On
   - first:
       213: 4322465131799175251
-    second: GridBotones_15
+    second: Towi_Button_Music_Off
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -125,7 +125,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -137,7 +137,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -149,7 +149,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_6
+      name: Towi_Button_Next
       rect:
         serializedVersion: 2
         x: 256
@@ -310,7 +310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_7
+      name: Towi_Button_Info
       rect:
         serializedVersion: 2
         x: 384
@@ -331,7 +331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_8
+      name: Towi_Button_Launch
       rect:
         serializedVersion: 2
         x: 0
@@ -352,7 +352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_9
+      name: Towi_Button_Config
       rect:
         serializedVersion: 2
         x: 128
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_10
+      name: Towi_Button_Back
       rect:
         serializedVersion: 2
         x: 256
@@ -394,7 +394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_11
+      name: Towi_Button_Shop
       rect:
         serializedVersion: 2
         x: 384
@@ -415,7 +415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_12
+      name: Towi_Button_Audio_On
       rect:
         serializedVersion: 2
         x: 0
@@ -436,7 +436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_13
+      name: Towi_Button_Audio_Off
       rect:
         serializedVersion: 2
         x: 128
@@ -457,7 +457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_14
+      name: Towi_Button_Music_On
       rect:
         serializedVersion: 2
         x: 256
@@ -478,7 +478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GridBotones_15
+      name: Towi_Button_Music_Off
       rect:
         serializedVersion: 2
         x: 384
