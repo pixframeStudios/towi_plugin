@@ -1,0 +1,15 @@
+{
+    "name": "PixframeStudios.TowiPlugin.Editor",
+    "references": [
+        "PixframeStudios.TowiPlugin",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "noEngineReferences": false
+}

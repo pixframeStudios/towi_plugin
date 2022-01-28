@@ -1,6 +1,8 @@
 {
-    "name": "pixframe-studios.towi-plugin",
-    "references": [],
+    "name": "PixframeStudios.TowiPlugin",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

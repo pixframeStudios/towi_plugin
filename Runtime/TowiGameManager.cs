@@ -1,5 +1,5 @@
 namespace PixframeStudios.TowiPlugin
-{    
+{
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
@@ -8,16 +8,23 @@ namespace PixframeStudios.TowiPlugin
     {
         public static TowiGameManager instance;
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            
-        }
+        protected GamePhase phase = GamePhase.Initialization;
 
-        // Update is called once per frame
-        void Update()
-        {
-            
-        }
+        [Header("Game configuration")]
+        public string gameName = "Name of the game in towi db";
+        public int rounds = 3;
+        public int pointsPerRound = 1;
+        protected float score;
+        protected int historyIndex = 0;
+
+        [SerializeField] protected TextAsset asset;
+        //This list will be usefull for giving instrctions and objectives to players
+        protected List<string> initialText;
+        protected List<string> tutorialText;
+        protected List<string> confrimationText;
+        protected List<string> positiveRoundResultText;
+        protected List<string> negativeRoundResultText;
+        protected List<string> finalPositiveResultText;
+        protected List<string> finaNegativelResultText;
     }
 }
