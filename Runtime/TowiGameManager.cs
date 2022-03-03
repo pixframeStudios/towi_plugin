@@ -26,5 +26,30 @@ namespace PixframeStudios.TowiPlugin
         protected List<string> negativeRoundResultText;
         protected List<string> finalPositiveResultText;
         protected List<string> finaNegativelResultText;
+
+        private void Start()
+        {
+            Init();
+        }
+
+        protected void Init()
+        {
+            if (instance == null)
+            {
+                instance = this;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this)
+            {
+                instance = null;
+            }
+        }
     }
 }
