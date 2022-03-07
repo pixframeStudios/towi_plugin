@@ -8,6 +8,46 @@ To get started with the Towi Plugin for Unity, see:
 
 * [Towi for Unity](http://towi.com.mx/)
 
+### Prerequisites
+This are the prerequisites to install Towi on Unity.
+
+Unity version 2020.3.0 or latest
+
+What things you need to install the software and how to install them
+
+```
+
+Knowledge in C#/Unity3D
+Unity 2020.3.9f1
+
+```
+## Built With
+
+
+* [Unity3D] - The game engine used.
+
+## Installing
+
+Unity method
+Unity Editor -> Assets -> View Package Manager.
+
+Clone HTTPS url https://github.com/pixframeStudios/towi_plugin.git
+In the View Package Manager -> Add package from git URL.
+
+Package will appear in Packages Folder in Unity Editor
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/pixframe/towi/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+
+* **Pixframe Studios SAPI de CV**  - [Pixframe Studios](https://www.pixframestudios.com)
+
+
+See also the list of [contributors](https://github.com/pixframe/towi_portal/contributors) who participated in this project.
+
 ## API reference
 
 * [Towi for Unity Reference](http://towi.com.mx/)
