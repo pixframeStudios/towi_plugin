@@ -48,6 +48,12 @@ Please read [CONTRIBUTING.md](https://github.com/pixframe/towi/blob/master/CONTR
 
 See also the list of [contributors](https://github.com/pixframe/towi_portal/contributors) who participated in this project.
 
+## License
+
+
+This project is licensed under the GNU License - see the [LICENSE.md](https://github.com/pixframeStudios/towi_plugin/blob/main/LICENSE) file for details
+
+
 ## API reference
 
 * [Towi for Unity Reference](http://towi.com.mx/)
