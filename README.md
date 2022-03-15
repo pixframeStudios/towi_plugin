@@ -40,6 +40,11 @@ Package will appear in Packages Folder in Unity Editor
 
 Please read [CONTRIBUTING.md](https://github.com/pixframe/towi/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
+## Discussion
+
+The [Discussion tab](https://github.com/pixframeStudios/towi_plugin/discussions) is available for developers and contributors. Please take your time to read the new updates, and post any doubt.
+
+
 ## Authors
 
 
