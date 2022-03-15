@@ -28,11 +28,11 @@ Unity 2020.3.9f1
 
 ## Installing
 
-Unity method
-Unity Editor -> Assets -> View Package Manager.
+# Unity method
 
-Clone HTTPS url https://github.com/pixframeStudios/towi_plugin.git
-In the View Package Manager -> Add package from git URL.
+1. In the Unity Engine open a new 2D Scene.
+2. When the new scene is open go to the Unity Editor. Search the Assets tab and click on View Package Manager.
+3. Search the option Add package from git URL. Copy this HTTPS URL: https://github.com/pixframeStudios/towi_plugin.git 
 
 Package will appear in Packages Folder in Unity Editor
 
