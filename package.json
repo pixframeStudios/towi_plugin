@@ -1,6 +1,6 @@
 {
   "name": "com.pixframe-studios.towi-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "displayName": "Towi Plugin",
   "description": "This is the base towin plugin",
   "unity": "2020.3",

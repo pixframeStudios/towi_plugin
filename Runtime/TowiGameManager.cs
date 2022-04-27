@@ -20,7 +20,7 @@ namespace PixframeStudios.TowiPlugin
         [SerializeField] protected TextAsset asset;
         //This list will be usefull for giving instrctions and objectives to players
         [SerializeField] protected List<string> initialText;
-        protected List<string> tutorialText;
+        [SerializeField] protected List<string> tutorialText;
         protected List<string> confrimationText;
         protected List<string> positiveRoundResultText;
         protected List<string> negativeRoundResultText;
