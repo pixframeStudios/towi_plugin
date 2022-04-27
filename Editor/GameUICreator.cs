@@ -61,6 +61,7 @@ namespace PixframeStudios.TowiPlugin.Editor
             rect.anchorMin = minAnchor;
             rect.anchorMax = maxAnchor;
             rect.anchoredPosition = anchoredPos;
+            rect.localScale = Vector3.one;
             return rect;
         }
 
@@ -79,6 +80,7 @@ namespace PixframeStudios.TowiPlugin.Editor
             var panelImage = gameObject.GetComponent<Image>();
             var rect = SetAnchoredPos(gameObject, new Vector2(0f, -(panelSize.y / 2)));
             rect.sizeDelta = panelSize;
+            rect.localScale = Vector3.one;
             var panelAsset = AssetDatabase.LoadAssetAtPath<Sprite>($"{ASSETS_PATH}/UI/Panel.png");
             panelImage.sprite = panelAsset;
             panelImage.type = Image.Type.Sliced;

@@ -19,7 +19,7 @@ namespace PixframeStudios.TowiPlugin
 
         [SerializeField] protected TextAsset asset;
         //This list will be usefull for giving instrctions and objectives to players
-        protected List<string> initialText;
+        [SerializeField] protected List<string> initialText;
         protected List<string> tutorialText;
         protected List<string> confrimationText;
         protected List<string> positiveRoundResultText;
@@ -30,6 +30,11 @@ namespace PixframeStudios.TowiPlugin
         private void Start()
         {
             Init();
+        }
+
+        protected virtual void ShowInitialText()
+        {
+            
         }
 
         protected void Init()
