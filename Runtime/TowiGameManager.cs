@@ -21,11 +21,12 @@ namespace PixframeStudios.TowiPlugin
         //This list will be usefull for giving instrctions and objectives to players
         [SerializeField] protected List<string> initialText;
         [SerializeField] protected List<string> tutorialText;
-        protected List<string> confrimationText;
+        protected List<string> confirmationText;
         protected List<string> positiveRoundResultText;
         protected List<string> negativeRoundResultText;
         protected List<string> finalPositiveResultText;
         protected List<string> finaNegativelResultText;
+        protected List<string> bonusText;
 
         private void Start()
         {
@@ -37,6 +38,37 @@ namespace PixframeStudios.TowiPlugin
             
         }
 
+        #region Helpers
+
+        protected virtual void SceneInitialization()
+        {
+            //Useful for change StartMenu to InitialText
+        }
+
+        protected virtual void GameInitialization()
+        {
+            //Useful for change from InitialText to tutorial text
+        }
+
+        protected virtual void ExplainGame()
+        {
+            //Useful for showing the tutorial text and images
+        }
+
+        protected virtual void SetGameObjectives()
+        {
+            //Useful for setting up the rounds, objectives and bonus
+        }
+        protected virtual void BeginGame()
+        {
+            //Useful for setting up the things that will appear on the game scene, and making the game loop
+        }
+        protected virtual void ShowResult()
+        {
+            //Useful for check and verify the score, the actualRound, the levels and showing it on the next screen
+        }
+
+        #endregion
         protected void Init()
         {
             if (instance == null)
