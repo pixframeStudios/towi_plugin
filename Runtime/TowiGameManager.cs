@@ -16,6 +16,7 @@ namespace PixframeStudios.TowiPlugin
         public int pointsPerRound = 1;
         protected float score;
         protected int historyIndex = 0;
+        public bool isFreeMode = false;
 
         [SerializeField] protected TextAsset asset;
         //This list will be usefull for giving instrctions and objectives to players
@@ -27,6 +28,10 @@ namespace PixframeStudios.TowiPlugin
         protected List<string> finalPositiveResultText;
         protected List<string> finaNegativelResultText;
         protected List<string> bonusText;
+        protected List<string> difficultyText;
+        protected List<string> errorsText;
+
+        protected int grade;
 
         private void Start()
         {
